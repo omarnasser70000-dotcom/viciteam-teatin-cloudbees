@@ -1,6 +1,6 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
-name: My workflow-vicitm
+name: My workflow-vicitm-555
 on:
   push:
     branches:
@@ -13,3 +13,8 @@ jobs:
         shell: sh
         run: |
           echo "hello world"
+  vicitm-jon555:
+    environment: "5555"
+    steps:
+      - name: te
+        uses: teast
